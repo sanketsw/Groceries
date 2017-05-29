@@ -1,6 +1,6 @@
 {
     "name": "tns-template-blank-ts",
-    "main": "app.js",
+     "main": "main.js",
     "version": "2.5.0",
     "author": "Telerik <support@telerik.com>",
     "description": "Nativescript blank-ts project template",
