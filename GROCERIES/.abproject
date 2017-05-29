@@ -1,0 +1,28 @@
+{
+  "ProjectName": "GROCERIES",
+  "ProjectGuid": "0fce8e17-dd3e-4764-8e1c-5b3a141f902e",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.GROCERIES",
+  "DisplayName": "GROCERIES",
+  "Author": "",
+  "Description": "GROCERIES",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{F0A65104-D4F4-4012-B799-F612D75820F6}",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "true",
+  "iOSStatusBarStyle": "Default",
+  "FrameworkVersion": "2.5.0",
+  "Framework": "NativeScript"
+}
