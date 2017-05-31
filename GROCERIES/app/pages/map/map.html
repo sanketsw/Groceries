@@ -1,0 +1,9 @@
+
+<GridLayout rows="auto, *">
+     <Image row="0" col="0" src="res://logo_login" stretch="none" horizontalAlignment="center"></Image> 
+    <GridLayout row="1" rows="400, *">
+         <WebView row="0" col="0" [src]="firstWebViewSRC"  (tap)="webviewtouch($event)"></WebView>
+    </GridLayout>
+    <!--<Image row="2" col="0" src="res://logo_login" stretch="none" horizontalAlignment="center"></Image> -->
+    <!--<WebView row="1" col="0" [src]="secondWebViewSRC"></WebView>-->
+</GridLayout>
