@@ -1,9 +1,16 @@
 
-<GridLayout rows="auto, *">
-     <Image row="0" col="0" src="res://logo_login" stretch="none" horizontalAlignment="center"></Image> 
-    <GridLayout row="1" rows="400, *">
-         <WebView row="0" col="0" [src]="firstWebViewSRC"  (tap)="webviewtouch($event)"></WebView>
+<GridLayout rows="auto, auto, auto">
+    <Image row="0" col="0" src="res://logo_login" stretch="none" horizontalAlignment="center"></Image> 
+    <GridLayout row="1" columns="*, auto" class="add-bar">
+        <TextField #groceryTextField [(ngModel)]="message" hint="Enter message for Ably" col="0"></TextField>
+        <Image src="res://add" (tap)="publish()" col="1"></Image>
     </GridLayout>
+    <WrapLayout row="2">
+        <Label text="Last Message on the Channel: "></Label>
+        <Label [text]="received" textWrap="true"></Label>
+    </WrapLayout>s
+     <!--<GridLayout row="2" rows="400, *">
+         <WebView row="0" col="0" [src]="firstWebViewSRC"  (tap)="webviewtouch($event)"></WebView>
+    </GridLayout>-->
     <!--<Image row="2" col="0" src="res://logo_login" stretch="none" horizontalAlignment="center"></Image> -->
-    <!--<WebView row="1" col="0" [src]="secondWebViewSRC"></WebView>-->
 </GridLayout>

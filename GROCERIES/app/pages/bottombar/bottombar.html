@@ -1,0 +1,14 @@
+<ActionBar title="SF Fusion">
+  <ActionItem text="Share" (tap)="share()" android.systemIcon="ic_menu_share_holo_dark" ios.systemIcon="9" ios.position="right"></ActionItem>
+</ActionBar>
+<TabView selectedIndex="0" (selectedIndexChange)="onIndexChanged($event)" sdkExampleTitle sdkToggleNavButton>
+    <StackLayout *tabItem="{title: 'Cloudinary',  iconSource: 'res://add'}">
+        <cloudinary-page></cloudinary-page>
+    </StackLayout>
+    <StackLayout *tabItem="titleAndIcon">
+        <map-page></map-page>
+    </StackLayout>
+    <StackLayout *tabItem="{title: 'Map',  iconSource: 'res://unchecked'}">
+         <map-page></map-page>
+    </StackLayout>
+</TabView>

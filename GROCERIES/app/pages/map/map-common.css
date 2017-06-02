@@ -18,3 +18,23 @@ Button, TextField {
   margin-right: 16;
   margin-bottom: 10;
 }
+
+.add-bar {
+  background-color: #CB1D00;
+  padding: 5 10;
+}
+.add-bar Image {
+  height: 15;
+  vertical-align: center;
+  margin-left: 10;
+  margin-right: 5;
+}
+TextField {
+  color: white;
+}
+ListView {
+  opacity: 0;
+}
+.thumb-bar {
+  padding: 5 10;
+}

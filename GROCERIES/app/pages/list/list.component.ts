@@ -25,7 +25,7 @@ import {
 import * as fs from "file-system";
 
 @Component({
-  selector: "list",
+  selector: "cloudinary-page",
   templateUrl: "pages/list/list.html",
   styleUrls: ["pages/list/list-common.css", "pages/list/list.css"],
   providers: [GroceryListService]
